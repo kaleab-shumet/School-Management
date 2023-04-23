@@ -1,9 +1,9 @@
 spring:
     datasource:
         driver-class-name: org.postgresql.Driver
-        url: jdbc:postgresql://localhost:5432/school
-        username: postgres
-        password: Qweasdzxc123
+        url: jdbc:postgresql://lallah.db.elephantsql.com:5432/qcmpbadl
+        username: qcmpbadl
+        password: zlJZhv2FfZJdEX41Rxcr3b4bCS6b3Lko
     sql:
         init:
             mode: always

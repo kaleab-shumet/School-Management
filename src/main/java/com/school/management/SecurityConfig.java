@@ -42,7 +42,7 @@ public class SecurityConfig {
         return http.csrf().disable()
                 .cors().and()
                 .authorizeHttpRequests()
-                .requestMatchers("/api/auth/**").permitAll()
+                .requestMatchers("/api/auth/**", "/**").permitAll()
                 .and()
                 .authorizeHttpRequests()
                 .requestMatchers("/api/admin/**").hasRole("ADMIN")
