@@ -3,7 +3,7 @@ spring:
         driver-class-name: org.postgresql.Driver
         url: jdbc:postgresql://lallah.db.elephantsql.com:5432/qcmpbadl
         username: qcmpbadl
-        password: PlcuhJatnmetvhYVgYZazGbQKNL7ErTW
+        password: 4sQPkBjTM9kLpgBbm0aVLcwVIted_E4I
     sql:
         init:
             mode: always
